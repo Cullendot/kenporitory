@@ -1,0 +1,14 @@
+.wrapper {
+    position: relative; /* Ensures "No" button stays within bounds */
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows buttons to stack on small screens */
+    gap: 10px;
+}
+
+button {
+    max-width: 40%; /* Prevents buttons from getting too big */
+}
